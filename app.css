@@ -1,0 +1,118 @@
+/* style.css */
+
+/* Add a background color and set text color */
+body {
+    background-color: #f5f5f5;
+    color: #333;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Navbar styles */
+  nav {
+    background-color: #1db954;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  nav li {
+    margin-right: 20px;
+    font-weight: bold;
+  }
+  
+  nav img {
+    height: 30px;
+    margin-right: 5px;
+  }
+  
+  /* Container styles */
+  .container {
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+  /* Song list styles */
+  .songItemContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .songItem {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .songName {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .timestamp {
+    display: block;
+    color: #666;
+    margin-top: 10px;
+  }
+  
+  .songlistplay {
+    margin-top: 15px;
+  }
+  
+  /* Song banner styles */
+  .songBanner {
+    height: 200px;
+    background-image: url('banner.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  /* Bottom bar styles */
+  .bottom {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #1db954;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  #myProgressBar {
+    width: 100%;
+    margin: 0 10px;
+  }
+  
+  .icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+  }
+  
+  /* Song Info styles */
+  .songInfo {
+    display: flex;
+    align-items: center;
+  }
+  
+  #gif {
+    margin-right: 10px;
+  }
+  
